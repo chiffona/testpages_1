@@ -3,25 +3,21 @@
 <html lang="ko">
 <head>
 	<meta charset="UTF-8">
-	<title> Heyonhak Choi Testpage_2 - Main menu </title>
+	<title> Heyonhak Choi Testpage_2 - Main Menu Page </title>
 	<style>
 		body{
-			background-image: url( "../../material/images/black_background_pingtree.jpg" );
+			background-image: url( "../../material/images/background/black_background_pingtree.jpg" );
 			height: 1000px;
 			color: white;
-		}
-		.top-menu-left{
-			position: absolute;
-			top: 20px;
 		}
 		.top-menu-right{
 			position: relative;
 			font-size: 24pt;
 			text-align: right;
-			top: 20px;
+			top: 10px;
 		}
 		.main-title{
-			padding-top: 100px;
+			padding-top: 10px;
 			padding-bottom: 20px;
 			font-size: 40pt;
 			text-align: center;
@@ -38,16 +34,19 @@
 		}
 	</style>
 </head>
+<!--팝업 페이지 출력-->
+<body onload="window.open('../etc/popup/testpage_popup_1.html','testpage_popup_1','width=450px, height=150px, left=300px, top=200px, toolbar=0, fullscreen=0, status=0, menubars=0, scrollbars=0, resizable=0, location=0, directories=0')">
 <body>
 	<!--상단 시작-->
-	<div class="nav">
+	<div class="top_part">
 		<!--좌측 상단 메인 메뉴-->
 		<!--좌측 상단 메인 메뉴 - 홈페이지-->
 		<div id= "main menu"class="top-menu-left">
-			<div class="top-menu-left-home">
+			<div id="top-menu-left-home">
 				<h1>
 					<a href="https://chiffona.github.io/testpages_1/pages/mainpages/testpage_0_main.html" title="Test Page_0 - Main Page">
-					<img src="../../material/images/font_images/testpage_0_main.png" width= "200px" alt="Test Page_0 - Main Page"></a>
+						<img src="../../material/images/font_images/testpage_0_main.png" width="300px" alt="Test Page_0 - Main Page">
+					</a>
 				</h1>
 			</div>
 			<!--좌측 상단 메인 메뉴 - 메뉴-->
@@ -77,29 +76,34 @@
 			<a href="../mainpages/testpage_4.html">
 				<img src="../../material/images/font_images/testpage_4.png" width= "100px" alt="Testpage_4"></a>
 		</div>
+	</div>
 		<!--상단 끝-->
 		<!--중단 시작-->
+	<div class= "middle_part">
 		<div class="main">
 			<div class="main-title">
-				Test Page_2 - Main menu
+				Test Page_2 - Main Menu Page<hr>
+			</div>
+			<div class="insert_image">
+				<img src="../../material/images/heimdal/heimdal_05.jpg" style="width:500px; margin-left: auto; margin-right: auto; display: block;" alt="shiba_pingtree">
 			</div>
 		</div>
-		<!--중단 끝-->
 		<hr>
-		<!--하단 시작-->
-		<div id="footer">
-			<div class="foot">
-				<img src="../../material/images/shiba_pingtree.jpg" height="100" alt="shiba_pingtree">
-			</div>
-			<div class="copyright_fontsize12pt">
-				<p>
-				Made by : Heyonhak Choi
-				<br>&emsp;&emsp;&emsp;&emsp;&ensp; Department of ICT & Automotive Engineering, Hoseo University
-				<br>&emsp;&emsp;&emsp;&emsp;&ensp; It's just testpage.
-				</p>
-			</div>
-		</div>
-	<!--하단 끝-->
 	</div>
+		<!--중단 끝-->
+		<!--하단 시작-->
+	<div id="bottom_part">
+		<div class="foot">
+			<img src="../../material/images/etc/shiba_pingtree.jpg" height="100" alt="shiba_pingtree">
+		</div>
+		<div class="copyright_fontsize12pt">
+			<p>
+			Made by : Heyonhak Choi
+			<br>&emsp;&emsp;&emsp;&emsp;&ensp; Department of ICT & Automotive Engineering, Hoseo University
+			<br>&emsp;&emsp;&emsp;&emsp;&ensp; It's just testpage.
+			</p>
+		</div>
+	</div>
+	<!--하단 끝-->
 </body>
 </html>
