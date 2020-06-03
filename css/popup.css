@@ -1,0 +1,25 @@
+	html{
+		width: 450px;
+		height: 150px;
+		left: 300px
+		top: 200px
+		toolbar: 0
+		fullscreen: 0
+		status: 0
+		menubars: 0
+		scrollbars: 0
+		resizable: 0
+		location: 0
+		directories: 0
+	}
+	body{
+		background-image: url( "../material/images/background/black_background_pingtree.jpg" );
+		widht: 450px;
+		height: 150px;
+		color: white;
+	}
+.popup_font{
+			font-size: 30px;
+			text-align: center;
+	
+}
