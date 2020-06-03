@@ -1,0 +1,20 @@
+		body{
+			background-image: url( "../material/images/background/black_background_pingtree.jpg" );
+			height: 1000px;
+			color: white;
+		}
+		.top-menu-right{
+			position: relative;
+			font-size: 24pt;
+			text-align: right;
+			top: 10px;
+		}
+		.main-title{
+			padding-top: 30px;
+			padding-bottom: 20px;
+			font-size: 40pt;
+			text-align: center;
+		}
+		.copyright_fomtsize12pt{
+			font-size: 12pt;
+		}
